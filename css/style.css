@@ -1,0 +1,137 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	width:1200px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-between;
+	padding:30px;
+}
+.header{
+	width:100%;
+	text-align:left;
+}
+.linkedin{
+	color:#0076AC;
+	text-decoration:none;
+}
+
+.sign_in{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	/* font-family: 'Poppins', sans-serif; */
+}
+/* .para{ */
+	/* font-family: 'Poppins', sans-serif; */
+/* } */
+.email input{
+	border:none;
+	border:2px solid black;
+	height:40px;
+	width:100%;
+	border-radius:5px;
+}
+.password input{
+	border:none;
+	border:2px solid black;
+	height:40px;
+	width:100%;
+	border-radius:5px;
+}
+.forgot{
+	margin-top:-35px;
+	text-decoration:none;
+	color:#0076AC;
+}
+.signin{
+	color:white;
+	text-decoration:none;
+	display:flex;
+	justify-content:center;
+	border:1px solid #0B65C3;
+	background-color:#0B65C3;
+	height:40px;
+	border-radius:25px;
+	margin-top:20px;
+	line-height:35px;
+}
+.continue{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	text-align:center;
+	gap:10px;
+	
+}
+.google{
+	text-decoration:none;
+	color:black;
+	border:2px solid black;
+	border-radius:25px;
+	padding:10px;
+}
+.apple{
+	text-decoration:none;
+	color:black;
+	border:2px solid black;
+	border-radius:25px;
+	padding:10px;
+}
+.bottom{
+    border-top: 2px solid #000;
+    margin-top: 25px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.signin_card {
+    padding: 25px;
+    width: fit-content;
+    margin: 0 auto;
+    box-shadow: 0 0 50px 12px #eee;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+.or{
+    position: absolute;
+    display: inline;
+    top: -12px;
+    left: 135px;
+    background: #fff;
+    padding: 0 10px;
+}
+.show {
+    text-decoration: none;
+    color: rgb(11 102 195);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: -34px;
+    right: -270px;
+}
+.signin:hover{
+	background-color:#0076AC;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 15px;
+}
+.footer1{
+	text-decoration:none;
+	color:black;
+}
+.new{
+	text-decoration:none;
+	color:#0076AC;
+}
+
